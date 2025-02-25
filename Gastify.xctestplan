@@ -23,13 +23,6 @@
         "identifier" : "29F32B652D2B2BBA00AEFBC0",
         "name" : "GastifyTests"
       }
-    },
-    {
-      "target" : {
-        "containerPath" : "container:Gastify.xcodeproj",
-        "identifier" : "29F32B6F2D2B2BBA00AEFBC0",
-        "name" : "GastifyUITests"
-      }
     }
   ],
   "version" : 1
