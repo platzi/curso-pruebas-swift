@@ -46,4 +46,25 @@ final class HomeViewUITests: XCTestCase {
         let todayFilterUnselected = app.buttons["Filter_Hoy_Unselected"]
         XCTAssertTrue(todayFilterUnselected.exists, "El filtro 'Hoy' debería estar deseleccionado porque se eligio otro filtro")
     }
+
+
+    func testAddRecord_NavigatesToNewRecordView() {
+        let addRecordButton = app.buttons["AddRecordButton"]
+        XCTAssertTrue(addRecordButton.exists, "El botón de agregar registro debería existir")
+
+        addRecordButton.tap()
+
+        let newRecordSheet = app.staticTexts["FormRecordTitle"]
+        XCTAssertTrue(newRecordSheet.waitForExistence(timeout: 3.0), "El sheet de nuevo registro debería mostrarse")
+    }
+
+    func testNavigationToRecordDetail() {
+        let firstRecord = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH 'Record_'")).firstMatch
+        XCTAssertTrue(firstRecord.exists, "Debería haber al menos un registro para seleccionar")
+
+        firstRecord.tap()
+
+        let detailView = app.buttons["RecordDetailDeleteButton"]
+        XCTAssertTrue(detailView.waitForExistence(timeout: 2.0), "Debería navegar a la vista de detalles del registro")
+    }
 }
