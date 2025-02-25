@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		29DC0B222D6E41C0000866A1 /* GastifyUI.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 29DC0B212D6E41C0000866A1 /* GastifyUI.xctestplan */; };
+		29DC0B232D6E41C0000866A1 /* GastifyUI.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 29DC0B212D6E41C0000866A1 /* GastifyUI.xctestplan */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		29F32B672D2B2BBA00AEFBC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -39,6 +44,7 @@
 /* Begin PBXFileReference section */
 		29AF10BE2D591C9A00EE9C40 /* Gastify Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gastify Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AF11F52D59701C00EE9C40 /* Gastify.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gastify.xctestplan; sourceTree = "<group>"; };
+		29DC0B212D6E41C0000866A1 /* GastifyUI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = GastifyUI.xctestplan; sourceTree = "<group>"; };
 		29F32B542D2B2BB900AEFBC0 /* Gastify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gastify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F32B662D2B2BBA00AEFBC0 /* GastifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GastifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F32B702D2B2BBA00AEFBC0 /* GastifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GastifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +126,7 @@
 		29F32B4B2D2B2BB900AEFBC0 = {
 			isa = PBXGroup;
 			children = (
+				29DC0B212D6E41C0000866A1 /* GastifyUI.xctestplan */,
 				29AF11F52D59701C00EE9C40 /* Gastify.xctestplan */,
 				29F32B972D2B2CA300AEFBC0 /* Gastify */,
 				29F32B692D2B2BBA00AEFBC0 /* GastifyTests */,
@@ -285,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DC0B232D6E41C0000866A1 /* GastifyUI.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DC0B222D6E41C0000866A1 /* GastifyUI.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
